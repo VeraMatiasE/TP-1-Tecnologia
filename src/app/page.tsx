@@ -190,7 +190,7 @@ export default function Timeline() {
         {filteredTimelineData.map((event, index) => (
           <section
             key={index}
-            ref={(el) => (sectionsRef.current[index] = el)}
+            ref={(el) => { sectionsRef.current[index] = el; }}
             className="timeline-section min-h-screen flex flex-col justify-center p-20 transition-opacity duration-500"
             style={{
               backgroundImage: loadedImages[index]
