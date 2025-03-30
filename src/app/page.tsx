@@ -3,50 +3,48 @@
 import { useEffect, useState, useRef } from "react";
 import timelineData from "./timelineData.json";
 
-export default function Timeline() {
-  const ages = ["all", "prehistory", "ancient-history", "middle-ages", "early-modern", "contemporary"]; 
-  const edades = ["Todo", "Prehistoria", "Edad Antigua", "Edad Media", "Edad Moderna", "Edad Contemporanea"]; 
+interface TimelineEvent {
+  age: string;
+  year: number;
+  title: string;
+  description: string;
+  image?: string;
+}
 
-  const [activeIndices, setActiveIndices] = useState(
+export default function Timeline() {
+  const ages: string[] = ["all", "prehistory", "ancient-history", "middle-ages", "early-modern", "contemporary"];
+  const edades: string[] = ["Todo", "Prehistoria", "Edad Antigua", "Edad Media", "Edad Moderna", "Edad Contemporanea"];
+
+  const [activeIndices, setActiveIndices] = useState<Record<string, number>>(
     ages.reduce((acc, age) => ({ ...acc, [age]: 0 }), {})
   );
-  const [activeAge, setActiveAge] = useState("all");
-  const sectionsRef = useRef([]);
-  const [loadedImages, setLoadedImages] = useState({});
-  const [filteredTimelineData, setFilteredTimelineData] = useState(timelineData);
+  const [activeAge, setActiveAge] = useState<string>("all");
+  const sectionsRef = useRef<(HTMLElement | null)[]>([]);
+  const [loadedImages, setLoadedImages] = useState<Record<number, string>>({});
+  const [filteredTimelineData, setFilteredTimelineData] = useState<TimelineEvent[]>(timelineData);
 
-  // Cambiar a la pestaña anterior o siguiente
-  const changeTab = (direction) => {
+  const changeTab = (direction: "left" | "right") => {
     const currentIndex = ages.indexOf(activeAge);
     let newIndex;
-    
-    if (direction === 'right') {
+
+    if (direction === "right") {
       newIndex = (currentIndex + 1) % ages.length;
-    } else { // left
+    } else {
       newIndex = (currentIndex - 1 + ages.length) % ages.length;
     }
-    
+
     setActiveAge(ages[newIndex]);
   };
 
   useEffect(() => {
-    // Filtrar datos según la edad seleccionada
     const filtered = activeAge === "all" 
       ? timelineData 
-      : timelineData.filter(event => event.age === activeAge);
+      : timelineData.filter((event) => event.age === activeAge);
     
     setFilteredTimelineData(filtered);
-    
-    // Resetear el índice a 0 cuando cambias de pestaña
-    setActiveIndices(prev => ({
-      ...prev,
-      [activeAge]: 0
-    }));
-    
-    // Limpiar imágenes cargadas al cambiar de pestaña
+    setActiveIndices((prev) => ({ ...prev, [activeAge]: 0 }));
     setLoadedImages({});
     
-    // Scroll al primer elemento
     setTimeout(() => {
       if (sectionsRef.current[0]) {
         sectionsRef.current[0].scrollIntoView({ behavior: "smooth", block: "center" });
@@ -54,34 +52,22 @@ export default function Timeline() {
     }, 100);
   }, [activeAge]);
 
-  // Función auxiliar para actualizar el índice activo
-  const setActiveIndex = (index) => {
-    setActiveIndices(prev => ({
+  const setActiveIndex = (index: number) => {
+    setActiveIndices((prev) => ({
       ...prev,
-      [activeAge]: index
+      [activeAge]: index,
     }));
   };
 
-  // Obtener el índice activo para la edad actual
   const activeIndex = activeIndices[activeAge];
 
-  // Navegar arriba/abajo entre eventos
-  const navigateVertical = (direction) => {
+  const navigateVertical = (direction: "up" | "down") => {
+    let newIndex = direction === "down"
+      ? Math.min(activeIndex + 1, filteredTimelineData.length - 1)
+      : Math.max(activeIndex - 1, 0);
+
+    setActiveIndices({ ...activeIndices, [activeAge]: newIndex });
     
-    let newIndex;
-    if (direction === 'down') {
-      newIndex = Math.min(activeIndex + 1, filteredTimelineData.length - 1);
-    } else { // up
-      newIndex = Math.max(activeIndex - 1, 0);
-    }
-    
-    // Actualizar el índice directamente, sin usar el callback
-    setActiveIndices({
-      ...activeIndices,
-      [activeAge]: newIndex
-    });
-    
-    // Desplazarse al elemento
     if (sectionsRef.current[newIndex]) {
       sectionsRef.current[newIndex].scrollIntoView({ behavior: "instant", block: "center" });
     }
@@ -109,42 +95,32 @@ export default function Timeline() {
   }, [activeIndex, filteredTimelineData]);
 
   useEffect(() => {
-    const newLoadedImages = {};
+    const newLoadedImages: Record<number, string> = {};
     filteredTimelineData.forEach((event, index) => {
       if (Math.abs(activeIndex - index) <= 2) {
-        newLoadedImages[index] = event.image;
+        newLoadedImages[index] = event.image || "";
       }
     });
-    setLoadedImages(prevLoadedImages => ({
+    setLoadedImages((prevLoadedImages) => ({
       ...prevLoadedImages,
-      ...newLoadedImages
+      ...newLoadedImages,
     }));
   }, [activeIndex, filteredTimelineData]);
 
-  const handleClick = (index) => {
+  const handleClick = (index: number) => {
     setActiveIndex(index);
     if (sectionsRef.current[index]) {
       sectionsRef.current[index].scrollIntoView({ behavior: "smooth", block: "center" });
     }
   };
 
-  const handleKeyDown = (event) => {
-    // Navegación vertical (arriba/abajo) para años
-    if (event.key === "ArrowDown") {
-      navigateVertical('down');
-    } else if (event.key === "ArrowUp") {
-      navigateVertical('up');
-    }
-    
-    // Navegación horizontal (izquierda/derecha) para pestañas
-    if (event.key === "ArrowLeft") {
-      changeTab('left');
-    } else if (event.key === "ArrowRight") {
-      changeTab('right');
-    }
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === "ArrowDown") navigateVertical("down");
+    else if (event.key === "ArrowUp") navigateVertical("up");
+    else if (event.key === "ArrowLeft") changeTab("left");
+    else if (event.key === "ArrowRight") changeTab("right");
   };
 
-  // Configurar el event listener para las teclas
   useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
@@ -154,7 +130,7 @@ export default function Timeline() {
     <div className="relative min-h-screen bg-black text-white">
       {/* Tabs de edades */}
       <div className="fixed top-0 left-0 right-0 z-30 flex justify-center space-x-4 p-4 "> 
-        {ages.map((age,i) => (
+        {ages.map((age, i) => (
           <button
             key={age}
             className={`px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-lg shadow-md 
@@ -163,9 +139,7 @@ export default function Timeline() {
                 : "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:scale-105"}`}
             onClick={() => setActiveAge(age)}
           >
-            {
-            edades[i]
-            }
+            {edades[i]}
           </button>
         ))}
       </div>
@@ -227,9 +201,8 @@ export default function Timeline() {
               opacity: activeIndex === index ? 1 : 0.3
             }}
           >
-
-                <h2 className="ml-60 text-white text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg  drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">{event.title}</h2>
-                <p className="ml-60 text-gray-300 text-lg md:text-xl leading-relaxed drop-shadow-md p-2 rounded  drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">{event.description}</p>
+            <h2 className="ml-60 text-white text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg  drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">{event.title}</h2>
+            <p className="ml-60 text-gray-300 text-lg md:text-xl leading-relaxed drop-shadow-md p-2 rounded  drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">{event.description}</p>
           </section>
         ))}
       </div>
