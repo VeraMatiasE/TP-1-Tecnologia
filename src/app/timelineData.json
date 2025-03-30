@@ -1,0 +1,450 @@
+[
+  {
+    "year": -2500000,
+    "title": "Creación de herramientas de piedra",
+    "description": "Durante el Paleolítico, los seres humanos fabricaron herramientas de piedra tallada, como bifaces, hachas y puntas de lanza. Estas herramientas facilitaron la caza, la recolección y la construcción de refugios.",
+    "image": "images/herramientas-de-piedra.webp",
+    "age": "prehistory"
+  },
+  {
+    "year": -1500000,
+    "title": "Uso del fuego",
+    "description": "Uno de los mayores avances de la prehistoria fue el dominio del fuego. Este descubrimiento permitió a los primeros homínidos cocinar alimentos, calentarse, iluminarse y protegerse de depredadores.",
+    "image": "images/uso-fuego.jpg",
+    "age": "prehistory"
+  },
+  {
+    "year": -10000,
+    "title": "Desarrollo de la agricultura y la domesticación de animales",
+    "description": "En el Neolítico, la humanidad comenzó a cultivar plantas y domesticar animales. Esto permitió la sedentarización de las comunidades y el surgimiento de aldeas permanentes, sentando las bases para el desarrollo de la civilización.",
+    "image": "images/domesticacion.jpg",
+    "age": "prehistory"
+  },
+  {
+    "year": -9000,
+    "title": "Invención de la cerámica",
+    "description": "La fabricación de vasijas de barro cocido permitió almacenar alimentos y agua, mejorando las condiciones de vida. La cerámica también contribuyó al comercio y al desarrollo del arte prehistórico.",
+    "image": "images/ceramica-barro.jpg",
+    "age": "prehistory"
+  },
+  {
+    "year": -8000,
+    "title": "Aparición de la tejeduría",
+    "description": "El desarrollo de la tejeduría permitió la elaboración de ropa y redes de pesca, proporcionando mayor protección y comodidad a los primeros humanos.",
+    "image": "images/tela.jpg",
+    "age": "prehistory"
+  },
+  {
+    "year": -4500,
+    "title": "Descubrimiento de la metalurgia (Edad de los Metales)",
+    "description": "El conocimiento sobre la fundición de metales como el cobre, el bronce y el hierro revolucionó la tecnología prehistórica. Con la metalurgia, se fabricaron herramientas y armas más eficientes, favoreciendo el desarrollo de sociedades más complejas.",
+    "image": "images/metalurgia.webp",
+    "age": "prehistory"
+  },
+  {
+    "year": -3500,
+    "title": "Rueda (Mesopotamia)",
+    "description": "La invención de la rueda fue un avance crucial que transformó el transporte y la fabricación de herramientas.",
+    "image": "images/rueda.webp",
+    "age": "ancient-history"
+  },
+  {
+    "year": -3300,
+    "title": "Invención de la Escritura",
+    "description": "La escritura permitió la preservación y transmisión de información, marcando el comienzo de la historia registrada y facilitando la administración, el comercio y el desarrollo cultural.",
+    "image": "images/escritura.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -3000,
+    "title": "Desarrollo de la Metalurgia del Bronce y el Hierro",
+    "description": "Permitió fabricar herramientas más eficientes para la agricultura, la guerra y la construcción. La transición de la Edad del Bronce a la Edad del Hierro llevó a una mejora en la resistencia de herramientas y armas.",
+    "image": "images/bronce.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -2000,
+    "title": "Sistema Sexagesimal y Matemáticas Babilónicas",
+    "description": "Creación del sistema sexagesimal (base 60), base de la medición del tiempo (60 segundos, 60 minutos) y los ángulos (360°). Además, los babilonios desarrollaron álgebra y trigonometría.",
+    "image": "images/matematicas-babilonia.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -1500,
+    "title": "Desarrollo de la Medicina Egipcia",
+    "description": "Los egipcios practicaban cirugías, prótesis dentales y tratamientos médicos avanzados, como lo demuestra el Papiro de Ebers, uno de los textos médicos más antiguos.",
+    "image": "images/medicina-egipcia.webp",
+    "age": "ancient-history"
+  },
+  {
+    "year": -1500,
+    "title": "Reloj de sol",
+    "description": "Utilizado por los egipcios y babilonios, medía el tiempo con la sombra proyectada por un gnomon.",
+    "image": "images/reloj-solar.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -1000,
+    "title": "Ábaco",
+    "description": "Es reconocido como uno de los instrumentos de cálculo más antiguos, adaptado y apreciado en diversas culturas. Facilitó operaciones aritméticas básicas, impulsó el comercio y sentó las bases para el desarrollo de herramientas de cálculo más avanzadas.",
+    "image": "images/abaco.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -700,
+    "title": "Monedas (Lidia, Asia Menor)",
+    "description": "En el próspero reino de Lidia, ubicado en la actual Turquía, se acuñaron las primeras monedas de la historia. Estas piezas, hechas de una aleación natural de oro y plata llamada electro, facilitaban el comercio y el intercambio económico.",
+    "image": "images/moneda-lidia.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -500,
+    "title": "Medicina Hipocrática (Grecia)",
+    "description": "Separó la medicina de la religión y estableció principios médicos basados en la observación, influyendo en la práctica médica moderna.",
+    "image": "images/hipocrates.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -312,
+    "title": "Acueductos Romanos",
+    "description": "Los romanos perfeccionaron el diseño de acueductos, lo que les permitió abastecer de agua a las ciudades, mejorando la higiene y la salud pública.",
+    "image": "images/acueducto-romano.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -300,
+    "title": "Invención de la Polea y la Palanca (Arquímedes, Grecia)",
+    "description": "Permitió el desarrollo de máquinas simples que facilitaron la construcción y la ingeniería mecánica.",
+    "image": "images/polea-arquimedes.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": -150,
+    "title": "Astrolabio",
+    "description": "El astrolabio se creó alrededor del 150 a.C. y se atribuye al astrónomo y matemático griego Hiparco de Nicea. El astrolabio fue una herramienta clave para la astronomía, la navegación y la medición del tiempo durante siglos.",
+    "image": "images/astrolabio.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": 1,
+    "title": "Primeros Molinos de Agua de uso industrial (Europa y Medio Oriente)",
+    "description": "Los molinos de agua se utilizaban en el Imperio Romano desde el siglo I d.C., y su uso industrial se expandió en Europa y el Medio Oriente en los siglos IV y V d.C.",
+    "image": "images/molino-agua.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": 200,
+    "title": "Uso de Engranajes en Maquinaria (China y Roma)",
+    "description": "Tanto en China como en Roma, se utilizaban engranajes en diversas aplicaciones mecánicas. Fueron fundamentales para el desarrollo de relojes y máquinas más avanzadas.",
+    "image": "images/engranajes-antiguos.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": 300,
+    "title": "Primeros Hospitales Públicos (Roma y Persia)",
+    "description": "Instituciones dedicadas exclusivamente al cuidado de los enfermos, precursoras de la medicina moderna.",
+    "image": "images/hospital-antiguo.jpg",
+    "age": "ancient-history"
+  },
+  {
+    "year": 476,
+    "title": "Caída del Imperio Romano de Occidente",
+    "description": "Marca el fin de la Edad Antigua, con la pérdida de muchos conocimientos técnicos y científicos en Europa.",
+    "image": "images/caida-roma-occidente.webp",
+    "age": "ancient-history"
+  },
+  {
+    "year": 1024,
+    "title": "Papel moneda",
+    "description": "El papel moneda es una forma de dinero impresa en papel, que se utiliza como medio de intercambio y que tiene valor por decreto de un gobierno o una entidad financiera. A diferencia de las monedas de metal, el papel moneda no tiene un valor intrínseco, sino que su valor depende de la confianza en la institución que lo emite.",
+    "image": "images/papel-moneda.png",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1100,
+    "title": "Ventanas de cristal",
+    "description": "Aunque el vidrio era conocido desde tiempos antiguos, fue hacia el año 1100 que comenzó a utilizarse en ventanas, especialmente en iglesias, catedrales y edificios importantes de Europa. Estas ventanas permitían la entrada de luz natural, protegían del clima y embellecían los espacios mediante vitrales de colores, característicos de la arquitectura gótica.",
+    "image": "images/vitrales-goticos.jpg",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1140,
+    "title": "Arbotantes",
+    "description": "son una característica arquitectónica que se utiliza en la arquitectura gótica. Son estructuras exteriores que desvían el peso y la presión de las paredes de una iglesia o catedral hacia pilares o soportes fuera del edificio, permitiendo que las paredes internas sean más delgadas y se llenen de grandes ventanales, especialmente de vidrieras.",
+    "image": "images/arbotantes.jpg",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1270,
+    "title": "Catedrales góticas",
+    "description": "son grandes iglesias construidas con un estilo arquitectónico específico que se caracteriza por el uso de arcos puntiagudos, bóvedas de ojiva, columnas delgadas, y grandes vitrales. Estas catedrales están diseñadas para ser elevadas y luminosas, creando un ambiente de asombro y espiritualidad.",
+    "image": "images/catedrales-goticas.jpg",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1270,
+    "title": "Reloj mecánico",
+    "description": "El reloj mecánico fue un gran avance en la medición del tiempo. A diferencia de los relojes solares o de agua, estos mecanismos utilizaban engranajes y pesos para medir el paso del tiempo con mayor precisión. Se instalaban en torres y campanarios, ayudando a organizar la vida urbana y religiosa mediante la señalización de las horas.",
+    "image": "images/reloj-mecanico.jpg",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1280,
+    "title": "Gafas",
+    "description": "Las primeras gafas surgieron en Italia alrededor del año 1280. Estaban compuestas por dos lentes convexas montadas en un armazón simple. Su invención mejoró significativamente la vida de personas con problemas de visión, permitiéndoles leer y escribir con mayor claridad, especialmente a estudiosos, monjes y copistas.",
+    "image": "images/gafas-antiguas.jpg",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1440,
+    "title": "Imprenta",
+    "description": "La imprenta de tipos móviles fue creada por Johannes Gutenberg en Alemania hacia el año 1440. Este invento permitió reproducir libros y documentos de forma rápida y en grandes cantidades, lo que democratizó el acceso al conocimiento y sentó las bases para la expansión de la educación y la cultura en Europa. Su aparición marca el final de la Edad Media y el inicio de la Edad Moderna.",
+    "image": "images/imprenta-gutenberg.webp",
+    "age": "middle-ages"
+  },
+  {
+    "year": 1543,
+    "title": "Revolución copernicana",
+    "description": "Nicolás Copérnico publicó De revolutionibus orbium coelestium, proponiendo el modelo heliocéntrico que desplazaba a la Tierra del centro del universo, marcando el inicio de la astronomía moderna y convirtiéndose en referencia clave para la investigación astronómica avanzada.",
+    "image": "images/copernico.jpg",
+    "age": "early-modern"
+  },
+  {
+    "year": 1609,
+    "title": "Leyes de Kepler",
+    "description": "Johannes Kepler formuló tres leyes que describen el movimiento de los planetas en el Sistema Solar, estableciendo que orbitan en elipses alrededor del Sol, con velocidades variables según su distancia a este. Sus leyes fueron fundamentales para el desarrollo de la astronomía y sentaron las bases para la teoría de la gravitación de Newton.",
+    "image": "images/kepler.jpg",
+    "age": "early-modern"
+  },
+  {
+    "year": 1662,
+    "title": "Ley de Boyle",
+    "description": "Robert Boyle estableció que la presión y el volumen de un gas son inversamente proporcionales a temperatura constante (v=k), un principio fundamental de la química y la física.",
+    "image": "images/ley-boyle.jpg",
+    "age": "early-modern"
+  },
+  {
+    "year": 1665,
+    "title": "Desarrollo del cálculo",
+    "description": "El cálculo fue desarrollado de manera independiente por Isaac Newton y Gottfried Wilhelm Leibniz, quienes posteriormente publicaron sus trabajos sobre el cálculo diferencial e integral. Estas herramientas resultaron fundamentales para el progreso de la ciencia y la ingeniería.",
+    "image": "images/calculo.webp",
+    "age": "early-modern"
+  },
+  {
+    "year": 1674,
+    "title": "Primer organismo microscópico visto",
+    "description": "Anton van Leeuwenhoek fue el primero en observar una bacteria y otros microorganismos a través de un microscopio. Sus estudios sobre seres microscópicos refutaron la doctrina de la generación espontánea y sentaron las bases de la bacteriología y la protozoología, revolucionando la comprensión de la vida a nivel microscópico.",
+    "image": "images/leeuwenhoek.webp",
+    "age": "early-modern"
+  },
+  {
+    "year": 1676,
+    "title": "Medición de la velocidad de la luz",
+    "description": "Ole Rømer realizó una de las primeras mediciones de la velocidad de la luz al estudiar las lunas de Júpiter, en particular Ío. Rømer observó que el tiempo entre los eclipses de Ío variaba dependiendo de la posición relativa de la Tierra y Júpiter en sus órbitas alrededor del Sol.",
+    "image": "images/roemer.jpg",
+    "age": "early-modern"
+  },
+  {
+    "year": 1687,
+    "title": "Leyes del movimiento y gravitación universal",
+    "description": "Isaac Newton publicó Philosophiæ Naturalis Principia Mathematica, donde formuló las tres leyes del movimiento y la ley de la gravitación universal, fundamentales para la física clásica.",
+    "image": "images/leyes-newton.jpg",
+    "age": "early-modern"
+  },
+  {
+    "year": 1785,
+    "title": "Ley de Coulomb",
+    "description": "Charles-Augustin de Coulomb formuló la ley que describe la fuerza entre cargas eléctricas, relacionándola con la distancia y magnitud de las cargas. Su trabajo fue clave para el desarrollo del electromagnetismo y la teoría del campo eléctrico.",
+    "image": "images/coulomb.avif",
+    "age": "early-modern"
+  },
+  {
+    "year": 1760,
+    "title": "La Revolución Industrial",
+    "description": "Marcó el comienzo de la transformación tecnológica a gran escala en la industria y la economía. La invención de la máquina de vapor (James Watt, 1776) y la mecanización de la producción cambiaron la sociedad y el modo de vida. Destacando inventos como el telar mecánico(1785), el barco a vapor(1807) y la locomotora a vapor(1826).",
+    "image": "images/revolucion-industrial.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1799,
+    "title": "La pila voltaica",
+    "description": "La primera batería, no recargable, que convertía la energía química en eléctrica fue creada por el físico italiano Alessandro Volta.",
+    "image": "images/pila-volta.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1831,
+    "title": "Descubrimiento de la Electricidad",
+    "description": "Michael Faraday demostró la inducción electromagnética, mientras que en 1879, Thomas Edison inventó la bombilla eléctrica. Estos avances permitieron la electrificación del mundo moderno.",
+    "image": "images/faraday-electricidad.webp",
+    "age": "contemporary"
+  },
+  {
+    "year": 1854,
+    "title": "El teléfono",
+    "description": "Un dispositivo que transmitía señales acústicas a distancia por medio de señales eléctricas. Fue creado por el inventor italiano Antonio Meucci (pero fue Alexander Graham Bell quien patentó el invento en 1876).",
+    "image": "images/telefono.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1859,
+    "title": "Teoría de la Evolución de Charles Darwin",
+    "description": "Charles Darwin publicó \"El origen de las especies\", ofreciendo su teoría de la evolución por selección natural, lo que revolucionó la biología y nuestro entendimiento sobre el origen de la vida.",
+    "image": "images/darwin.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1868,
+    "title": "La máquina de escribir",
+    "description": "La primera máquina que incorporaba letras y símbolos accionados por palancas y que se representaban en forma lineal. Fue creada por el inventor francés Xavier Progin y patentada en 1883.",
+    "image": "images/maquina-escribir.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1896,
+    "title": "La radiactividad",
+    "description": "El descubrimiento del proceso por el que el núcleo de un átomo pierde energía mediante la emisión de partículas (alfa, beta o neutrones) que producen la desintegración de determinadas agrupaciones de protones y neutrones. Fue descubierta por el científico francés Antoine Henri Becquerel.",
+    "image": "images/radiactividad.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1902,
+    "title": "La radio",
+    "description": "La primera conexión por medio de una señal radiotelegráfica sin hilos (al principio fue en código morse) entre Europa y América. Fue creada por el físico italiano Guillermo Marconi.",
+    "image": "images/radio.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1903,
+    "title": "Primer Vuelo en Avión",
+    "description": "Los hermanos Wright, Orville y Wilbur, realizaron el primer vuelo motorizado y controlado el 17 de diciembre de 1903, en Kitty Hawk, Carolina del Norte.",
+    "image": "images/hermanos-wright.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1905,
+    "title": "Teoría de la Relatividad",
+    "description": "Albert Einstein presentó la teoría de la relatividad especial en 1905, y la relatividad general en 1915, cambiando radicalmente nuestra comprensión del espacio, tiempo, y gravedad.",
+    "image": "images/relatividad-einstein.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1914,
+    "title": "Primera guerra Mundial",
+    "description": "Conflicto global iniciado por el asesinato del archiduque Francisco Fernando de Austria. Involucró a las principales potencias mundiales y resultó en millones de muertes, nuevas tecnologías bélicas como aviones, tanques y armas químicas, y el colapso de imperios como el Austrohúngaro, el Alemán, el Ruso y el Otomano. Terminó con el Tratado de Versalles.",
+    "image": "images/primera-guerra.webp",
+    "age": "contemporary"
+  },
+  {
+    "year": 1926,
+    "title": "La Televisión",
+    "description": "Un sistema de transmisión de imágenes y escenas, a distancia y por telegrafía, que se conectaba a través de un cable de telefonía. Fue creada por el ingeniero y físico británico John Logie Baird.",
+    "image": "images/televisor.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1939,
+    "title": "Segunda Guerra Mundial",
+    "description": "Conflicto global provocado por la invasión de Polonia por parte de Alemania. Fue la guerra más devastadora de la historia, con más de 70 millones de muertos. Involucró a potencias como Alemania, Japón y la Unión Soviética contra los Aliados (EE. UU., Reino Unido, entre otros). Terminó con la derrota de las Potencias del Eje y la creación de la ONU.",
+    "image": "images/segunda-guerra.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1945,
+    "title": "Desarrollo de la Energía Nuclear",
+    "description": "El desarrollo de la energía nuclear alcanzó su punto culminante con la creación de la primera bomba atómica en 1945. En las décadas siguientes, se comenzó a utilizar la energía nuclear de manera pacífica para la producción de electricidad.",
+    "image": "images/energia-nuclear.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1946,
+    "title": "Primeras Computadoras Electrónicas",
+    "description": "La computadora ENIAC, fue una de las primeras computadoras electrónicas, lo que permitió avances en la informática y en la capacidad de procesamiento de datos.",
+    "image": "images/ENIAC.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1947,
+    "title": "Invención del Transistor",
+    "description": "John Bardeen, Walter Brattain y William Shockley inventaron el transistor, permitiendo la miniaturización de dispositivos electrónicos y el desarrollo de las computadoras modernas.",
+    "image": "images/transistor.webp",
+    "age": "contemporary"
+  },
+  {
+    "year": 1950,
+    "title": "Desarrollo de la Inteligencia Artificial",
+    "description": "Desde los primeros algoritmos de inteligencia artificial en la década de 1950, hasta los avances en aprendizaje automático y redes neuronales, la IA ha revolucionado sectores como la medicina, la economía, la automoción (vehículos autónomos), y las comunicaciones.",
+    "image": "images/ia.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1957,
+    "title": "El satélite artificial",
+    "description": "El primer satélite artificial enviado con éxito al espacio y que se mantuvo en órbita, llamado Sputnik I, marcando el inicio de la era espacial. Fue un trabajo en conjunto realizado por científicos rusos.",
+    "image": "images/sputnik.avif",
+    "age": "contemporary"
+  },
+  {
+    "year": 1958,
+    "title": "Invención del Circuito Integrado",
+    "description": "Jack Kilby, de Texas Instruments, y Robert Noyce, de Fairchild Semiconductor, desarrollaron de manera independiente el primer circuito integrado (CI). Kilby fue el primero en patentar su invención en 1959, lo que marcó el comienzo de la miniaturización de los componentes electrónicos.",
+    "image": "images/circuito-integrado.avif",
+    "age": "contemporary"
+  },
+  {
+    "year": 1966,
+    "title": "El disco compacto",
+    "description": "Un disco óptico capaz de almacenar datos en formato digital. Su nombre popular fue la sigla CD, que derivaba de su nombre en inglés compact disc. Fue creado por el físico estadounidense James Russell, que lo patentó, aunque no salió al mercado hasta 1982.",
+    "image": "images/cd.webp",
+    "age": "contemporary"
+  },
+  {
+    "year": 1969,
+    "title": "Creación del Internet",
+    "description": "En 1969, la red ARPANET, precursora de Internet, fue lanzada por el Departamento de Defensa de los EE.UU. En 1990, Tim Berners-Lee desarrolló la World Wide Web, transformando la comunicación y el acceso a la información global.",
+    "image": "images/arpanet.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 1969,
+    "title": "La llegada del hombre a la Luna",
+    "description": "El ser humano llegó al satélite natural, la Luna, a bordo de la nave Apolo 11, en la que viajaban tres tripulantes norteamericanos. El astronauta Neil Armstrong fue el primer hombre en pisar la superficie lunar.",
+    "image": "images/luna.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 2003,
+    "title": "Avances en Biotecnología y Genética",
+    "description": "En 2003, el Proyecto del Genoma Humano secuenció por completo el ADN humano. Hoy en día, la ingeniería genética y la biotecnología han permitido avances en medicina personalizada, como terapias génicas y diagnósticos avanzados.",
+    "image": "images/genoma.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 2007,
+    "title": "IPhone",
+    "description": "El iPhone cambió la industria de los teléfonos móviles al combinar teléfono, computadora, cámara y otras funcionalidades en un solo dispositivo, popularizando los teléfonos inteligentes.",
+    "image": "images/iphone.avif",
+    "age": "contemporary"
+  },
+  {
+    "year": 2010,
+    "title": "Impresión 3D (tecnología accesible al público)",
+    "description": "La popularización de la impresión 3D permitió a individuos y empresas crear objetos tridimensionales a partir de modelos digitales, abriendo nuevas posibilidades para la fabricación y el diseño.",
+    "image": "images/impresion-3d.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 2020,
+    "title": "Pandemia mundial del COVID-19",
+    "description": "La pandemia de COVID-19, causada por el coronavirus SARS-CoV-2, fue uno de los eventos globales más disruptivos del siglo XXI. Desde su aparición en diciembre de 2019 en Wuhan (China), se extendió rápidamente, generando crisis sanitarias, económicas y sociales en todo el mundo.",
+    "image": "images/covid.jpg",
+    "age": "contemporary"
+  },
+  {
+    "year": 2022,
+    "title": "Lanzamiento de ChatGPT",
+    "description": "Lanzamiento del modelo de lenguaje avanzado, popularizando la IA conversacional. Transformó la interacción humano-máquina y generó debates éticos.",
+    "image": "images/chatgpt.webp",
+    "age": "contemporary"
+  }
+]
