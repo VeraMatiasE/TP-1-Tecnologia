@@ -126,6 +126,13 @@
     "age": "ancient-history"
   },
   {
+    "year": -100,
+    "title": "Máquina de Antikythera (Grecia)",
+    "description": "Primer dispositivo mecánico complejo para cálculos astronómicos.",
+    "image": "images/maquina-antikythera.webp",
+    "age": "ancient-history"
+  },
+  {
     "year": 1,
     "title": "Primeros Molinos de Agua de uso industrial (Europa y Medio Oriente)",
     "description": "Los molinos de agua se utilizaban en el Imperio Romano desde el siglo I d.C., y su uso industrial se expandió en Europa y el Medio Oriente en los siglos IV y V d.C.",
